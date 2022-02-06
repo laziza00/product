@@ -40,12 +40,17 @@ body {
   width: 100%;
   padding: 0 20px;
 }
+
+/* header */
 .hero-content{
   background-color: var(--bg-color);
   min-height: 100vh;
 }
 .header{
   padding: 20px 0;
+}
+.header__logobox {
+  margin-right: 200px;
 }
 .header__logo{
   width: 40px;
@@ -157,12 +162,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.menu__dark--active{
-  display: none;
-}
 
 
 
+
+
+
+/* hero */
 
 .hero{
   padding: 28px 0;
@@ -243,6 +249,8 @@ body {
 }
 
 
+
+
 /* built */
 
 .built{
@@ -303,7 +311,7 @@ body {
 
 
 
-
+/* manage */
 .manage {
   padding-top: 150px;
 
@@ -360,7 +368,7 @@ body {
 
 
 
-
+/* proces */
 
 .proces {
   padding: 53px 0 75px 0;
@@ -868,7 +876,7 @@ body {
 
 
 
-
+/* responsive */
 
 @media screen and (max-width: 768px) {
   .container {
@@ -899,6 +907,9 @@ body {
     position: relative;
     flex-direction: column;
   }
+  .header__logobox {
+    margin-right: 160px;
+  }
   .header__nav {
     padding-top: 70px;
     flex-grow: 0;
@@ -908,13 +919,14 @@ body {
   }
   .header__menu {
     flex-direction:column;
+    flex-grow: 1;
     align-items: none;
   }
-  .header__logo{
+  .header__logo {
     width: 35px;
     height: 32px;
   }
-  .header__logo--black{
+  .header__logo--black {
     font-size: 25px;
     line-height: 28px;
   }
@@ -946,17 +958,14 @@ body {
   .menu__dark{
     display: none;
   }
-  .menu__dark--active{
-    /* display: flex;
-    justify-content: center;
-    position: relative;
-    z-index: 100; */
-  }
 
 .header__link-box{
   display: flex;
   justify-content: center;
 }
+
+
+
 
 
   /* hero-content */
@@ -1159,13 +1168,6 @@ body {
 .proces__item:nth-child(2) img {
   margin-right: 0;
 }
-.proces__link {
-  background-color: var(--primary-color);
-  border-radius: 4px;
-  color: #fff;
-  padding: 15px 30px;
-  text-decoration: none;
-}
 .proces__link-box{
   display: flex;
   justify-content: center;
@@ -1200,23 +1202,11 @@ body {
   width: 100%;
   height: 100%;
 }
-
 .strateg__box {
   padding: 0 0 40px 0;
 }
-.strateg__item-data {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
-  color: var(--text-color);
-  margin-bottom: 12px;
-}
 .strateg__item-title {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 40px;
   margin: 0 auto;
-  width: 294px
 }
 .strateg__span {
   font-weight: bold;
@@ -1244,62 +1234,7 @@ body {
 .price__item {
   margin-bottom: 32px;
 }
-.price__item-title {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 40px;
-  color: #22343d;
-  margin-bottom: 8px;
-}
-.price__item-text {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 40px;
-  color: #22343d;
-  margin-bottom: 16px;
-}
-.price__item-sum {
-  font-weight: bold;
-  font-size: 76px;
-  line-height: 100px;
-  text-align: center;
-  letter-spacing: 0.2px;
-  color: #02897a;
-  margin-right: 8px;
-}
-.price__item-dollar {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: 0.1px;
-  color: #02897a;
-  margin-bottom: 4px;
-}
-.price__item-month {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.1px;
-  color: #afafaf;
-}
-.price__item-box {
-  margin-bottom: 16px;
-}
-.price__item-block {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.2px;
-  text-align: center;
-  color: #22343d;
-  margin-bottom: 38px;
-}
-.price__item-link {
-  background: #02897A;
-  border-radius: 8px;
-  padding: 11px 19px;
-  color: #fff;
-}
+
 .price__item-linkbox {
   display: flex;
   justify-content: center;
@@ -1352,13 +1287,6 @@ body {
   text-align: center;
   margin-bottom: 100px;
 }
-
-.join__link {
-  background: #fff;
-  border-radius: 8px;
-  color: var(--primary-color);
-  padding: 13px 33px;
-}
 .join__imgbox {
   width: 100%;
 }
@@ -1387,20 +1315,11 @@ body {
 .footer__social-list {
   justify-content: center;
 }
-
 .footer__list {
   text-align: center;
 }
 .footer__item {
   margin-bottom: 10px;
-}
-.footer__item-link {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 35px;
-  color: var(--text-color);
-  text-decoration: none;
-  text-transform: capitalize;
 }
 .footer__text {
   text-align: center;
