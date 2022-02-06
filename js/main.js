@@ -26,11 +26,11 @@ let count = 0;
 elmenu__burger.addEventListener('click', function () {
   elheadermenu.classList.toggle('show');
   if (count == 0) {
-    elmenu__burger.style.color = '#000';
+    elmenu__burger.style.color = '#02897A';
     elIcon.className = "bx bx-x";
     count++;
   } else {
-    elmenu__burger.style.color = '#000';
+    elmenu__burger.style.color = '#02897A';
     elIcon.className = "bx bx-menu";
     count = 0;
   }
