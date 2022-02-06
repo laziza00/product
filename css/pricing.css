@@ -52,7 +52,7 @@ body {
     padding: 20px 0;
   }
   .header__logobox {
-    margin-right: 200px;
+    /* margin-right: 200px; */
   }
   .header__logo{
     width: 40px;
@@ -210,7 +210,7 @@ body {
       flex-direction: column;
     }
     .header__logobox {
-      margin-right: 170px;
+      /* margin-right: 170px; */
     }
     .header__nav {
       padding-top: 70px;

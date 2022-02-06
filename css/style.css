@@ -49,9 +49,7 @@ body {
 .header{
   padding: 20px 0;
 }
-.header__logobox {
-  margin-right: 200px;
-}
+
 .header__logo{
   width: 40px;
   height: 37px;
@@ -906,9 +904,6 @@ body {
   .hedaer___content {
     position: relative;
     flex-direction: column;
-  }
-  .header__logobox {
-    margin-right: 160px;
   }
   .header__nav {
     padding-top: 70px;
