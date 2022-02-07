@@ -696,9 +696,14 @@ body {
   .price__text {
     margin-bottom: 50px;
   }
+  .price__item-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
   .price__list {
     flex-direction: column;
-    justify-content: none;
+    justify-content: center;
   }
   .price__item {
     margin-bottom: 32px;

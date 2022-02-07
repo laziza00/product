@@ -1021,10 +1021,14 @@ body {
   margin-bottom: 37px;
 }
 .built__item{
+  width: 100%;
   margin-bottom: 37px;
 }
+.built__item-text {
+  width: 100%;
+}
 .built__title {
-  width: 330px;
+  width: 100%;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -1040,6 +1044,7 @@ body {
   padding: 95px 0 80px 0;
 }
 .manage__item{
+  width: 100%;
   justify-content: none;
   flex-direction: column-reverse;
   margin-bottom: 30px;
@@ -1051,6 +1056,7 @@ body {
   width: 100%;
 }
 .manage__item-title{
+  width: 100%;
   font-size: 32px;
   line-height: 48px;
   margin-bottom: 16px;
@@ -1064,17 +1070,20 @@ body {
 .card-title{
   font-size: 16px;
   line-height: 24px; 
+  width: 100%;
 }
 .custom__text{
-  width: 284px;
+  width: 100%;
 }
 .card__text{
-  width: 343px;
+  width: 100%;
 }
 .custom__title{
+  width: 100%;
   margin-bottom: 12px;
 }
 .custom__item{
+  width: 100%;
   margin-bottom: 16px;
 }
 .custom__img{
@@ -1110,11 +1119,14 @@ body {
   font-size: 28px;
   text-align: center;
   margin: 0 auto 8px auto;
-  width: 348px;
+  width: 100%;
+}
+.proces__item {
+  width: 100%;
 }
 .proces__text {
   margin:0 auto 40px auto;
-  width: 70%;
+  width: 100%;
   text-align: center;
 }
 
@@ -1141,7 +1153,7 @@ body {
 .proces__item-text {
   text-align: left;
   padding: 12px 20px;
-  width: 50%;
+  width: 100%;
 }
 
 .proces__item-img {
@@ -1176,11 +1188,11 @@ body {
 }
 .strateg__title {
   margin: 0 auto 8px auto;
-  width: 349px;
+  width: 100%;
 }
 .strateg__text {
   margin: 0 auto 40px auto;
-  width: 349px;
+  width: 100%;
 }
 .strateg__list {
   flex-direction: column;
