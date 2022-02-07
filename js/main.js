@@ -30,7 +30,7 @@ elmenu__burger.addEventListener('click', function () {
     elIcon.className = "bx bx-x";
     count++;
   } else {
-    elmenu__burger.style.color = '#02897A';
+    elmenu__burger.style.color = '#02897a';
     elIcon.className = "bx bx-menu";
     count = 0;
   }

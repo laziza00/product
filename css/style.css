@@ -1000,11 +1000,11 @@ body {
     margin: 0 auto 32px auto;
   }
   .hero__linkbox{
-    text-align: center;
+    display: flex;
   }
   .hero__link {
-    padding: 15px 22px;
-    margin-right: 22px;
+    padding: 15px 18px;
+    margin-right: 0;
     border-radius: 19px;
   }
 
