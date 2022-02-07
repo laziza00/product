@@ -44,7 +44,6 @@ body {
 /* header */
 .hero-content{
   background-color: var(--bg-color);
-  min-height: 100vh;
 }
 .header{
   padding: 20px 0;
@@ -901,9 +900,8 @@ body {
     top: 0;
   }
 
-  .hedaer___content {
+  .header__content {
     position: relative;
-    flex-direction: column;
   }
   .header__nav {
     padding-top: 70px;
@@ -976,7 +974,7 @@ body {
   .hero__imgbox {
     background-position: center center;
     background-size: 100% 90%;
-    margin-bottom: 30px;
+    margin-bottom: 11px;
   }
   .hero__info {
     padding-top: 0;
@@ -991,14 +989,14 @@ body {
     font-size: 36px;
     line-height: 60px;
     text-align: center;
-    width: 369px;
+    width: 100%;
     margin: 0 auto 16px auto;
   }
   .hero__text {
     font-size: 18px;
     line-height: 28px;
     text-align: center;
-    width: 326px;
+    width: 100%;
     margin: 0 auto 32px auto;
   }
   .hero__linkbox{
